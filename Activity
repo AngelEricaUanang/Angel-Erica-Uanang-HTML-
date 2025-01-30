@@ -228,11 +228,10 @@
 </tr><br><br>
 </table>
 
-<p>Attachments:<input type="File" id="MyFile" name="Choose File"></p>
+<p>Attachments:<input type="File" id="MyFile" name="Choose File"></p><br>
 
 <input type="submit" value="Submit">
 </form>
 
 </body>
 </html>
-
