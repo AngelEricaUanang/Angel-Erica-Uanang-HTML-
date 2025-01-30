@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Angel Erica Uanang Activity</title>
+</head>
+<body>
+
+<h1>Professional Networking Platform</h1>
+
+<h2>Create Profile</h2>
+
+<form>
+<label for="lname">Last Name:</label>
+<input type="text" id="lname" name="lname" value=""><br><br>
+
+<label for="fname">First Name:</label>
+<input type="text" id="fname" name="fname" value=""><br><br>
+
+<label for="mname">Middle Name:</label>
+<input type="text" id="mname" name="mname" value=""><br><br>
+
+<form action="/action_page.php">
+<label for="suffix">Suffix:</label>
+<select name="Suffix" id="Suffix">
+<option value="None">None</option>
+<option value="Jr.">Jr.</option>
+<option value="Sr.">Sr.</option>
+<option value="I">I</option>
+<option value="II">II</option>
+<option value="III">III</option>
+<option value="IV">IV</option>
+<option value="V">V</option>
+<option value="VI">VI</option>
+<option value="VII">VII</option>
+<option value="VIII">VIII</option>
+<option value="IX">IX</option>
+<option value="X">X</option>
+<option value="XI">XI</option>
+<option value="XII">XII</option>
+<option value="XIII">XIII</option>
+<option value="XIV">XIV</option>
+<option value="XV">XV</option>
+<option value="XVI">XVI</option>
+</select>
+<br><br>
+
+<h1>Profile Photo</h1>
+<p>Please upload a recent profile photo(JPG,PNG,or JPEG format only):<br><br>
+
+<input type="File" id="MyFile" name="Choose File">
+
+<h1>Personal Statement</h1>
+<p>Please provide a brief personal statement about yourself(up to 250 words):</p><br><br>
+
+<form>
+
+
+<textarea id="Personal Statement"  rows="10" cols="50" placeholder="Write your personal statement here..." >
+</textarea><br><br>
+
+<p>Word Limit:250 words(Maximum: 1000 characters)</p><br><br>
+
+
+<p>Gender</p><br>
+
+<input type="radio" id="Male" name="Male" value="Male">
+<label for="Male">Male</label>
+<input type="radio" id="Female" name="Female" value="Female">
+<label for="Female">Female</label><br><br>
+
+<form action="/action_page.php">
+<label for="civil status">Civil Status:</label>
+<select name="Civil Status" id="Civil Status">
+<option value="None">None</option>
+<option value="Single">Single</option>
+<option value="Married">Married</option>
+<option value="Separated">Separated</option>
+<option value="Widowed">Widowed</option>
+</select>
+<br><br>
+
+<form action="/action_page.php">
+<label for="religion">Religion:</label>
+<select name="Religion" id="Religion">
+<option value="Christianity">Christianity</option>
+<option value="Islam">Islam</option>
+<option value="Hinduism">Hinduism</option>
+<option value="Buddhism">Buddhism</option>
+<option value="Sikhism">Sikhism</option>
+<option value="Judaism">Judaism</option>
+<option value="Baha'i">Baha'i</option>
+<option value="Jainism">Jainism</option>
+<option value="None (Atheist)">None (Atheist)</option>
+</select>
+<br><br>
+
+<h1>Summary of Work Experience (Start from most recent)</h1>
+
+<table border="1" frame="box">
+<tr>
+<th>Designation/Appointment</th>
+<th>Company/Institution</th>
+<th>Location</th>
+<th>Inclusive Years</th>
+</tr>
+<tr>
+<td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="YYYY-YYYY" id="YYYY-YYYY" name="YYYY-YYYY" value="YYYY-YYYY"></td>
+</tr>
+<tr>
+<td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="YYYY-YYYY" id="YYYY-YYYY" name="YYYY-YYYY" value="YYYY-YYYY"></td>
+</tr>
+<tr>
+<td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="YYYY-YYYY" id="YYYY-YYYY" name="YYYY-YYYY" value="YYYY-YYYY"></td>
+</tr>
+<tr>
+<td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="YYYY-YYYY" id="YYYY-YYYY" name="YYYY-YYYY" value="YYYY-YYYY"></td>
+</tr>
+<tr>
+<td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="YYYY-YYYY" id="YYYY-YYYY" name="YYYY-YYYY" value="YYYY-YYYY"></td>
+</tr>
+</table><br>
+
+<h1>Educatinal Background (Start from most recent)</h1>
+
+<table border="1" frame="box">
+<tr>
+<th>Degree</th>
+<th>Specialization</th>
+<th>School</th>
+<th>Year Graduated</th>
+</tr>
+<tr>
+<td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="YYYY-YYYY" id="YYYY-YYYY" name="YYYY-YYYY" value="YYYY-YYYY"></td>
+</tr>
+<tr>
+<td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="YYYY-YYYY" id="YYYY-YYYY" name="YYYY-YYYY" value="YYYY-YYYY"></td>
+</tr>
+<tr>
+<td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="YYYY-YYYY" id="YYYY-YYYY" name="YYYY-YYYY" value="YYYY-YYYY"></td>
+</tr>
+<tr>
+<td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="YYYY-YYYY" id="YYYY-YYYY" name="YYYY-YYYY" value="YYYY-YYYY"></td>
+</tr>
+<tr>
+<td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="YYYY-YYYY" id="YYYY-YYYY" name="YYYY-YYYY" value="YYYY-YYYY"></td>
+</tr>
+</table><br>
+
+<h1>Certifications Acquired</h1>
+
+<table border="1" frame="box">
+<tr>
+<th>Certification Name</th>
+<th>Issuing Organization</th>
+<th>Year Acquired</th>
+</tr>
+<tr>
+<td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="YYYY-YYYY" id="YYYY-YYYY" name="YYYY-YYYY" value="YYYY-YYYY"></td>
+</tr>
+<tr>
+<td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="YYYY-YYYY" id="YYYY-YYYY" name="YYYY-YYYY" value="YYYY-YYYY"></td>
+</tr>
+<tr>
+<td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="YYYY-YYYY" id="YYYY-YYYY" name="YYYY-YYYY" value="YYYY-YYYY"></td>
+</tr>
+<tr>
+<td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="YYYY-YYYY" id="YYYY-YYYY" name="YYYY-YYYY" value="YYYY-YYYY"></td>
+</tr>
+<tr>
+<td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="" id="" name=""></td><td><input type="YYYY-YYYY" id="YYYY-YYYY" name="YYYY-YYYY" value="YYYY-YYYY"></td>
+</tr>
+</table><br>
+
+<h1>General Skills (Rate Yourself)</h1>
+<p>Please rate yourself on the following general skills (1:Novice, 2:Basic, 3:Intermediate, 4:Advanced, 5:Expert):</p>
+<table border="1" frame="box">
+<tr>
+<th>Skills</th>
+<th>Rating (1-5)</th>
+</tr>
+<tr>
+<td>Communication</td><td><input type="number" min="1" max="5"></td>
+</tr>
+<tr>
+<td>Problem Solving</td><td><input type="number" min="1" max="5"></td>
+</tr>
+<tr>
+<td>Teamwork</td><td><input type="number" min="1" max="5"></td>
+</tr>
+<tr>
+<td>Communication</td><td><input type="number" min="1" max="5"></td>
+</tr>
+<tr>
+<td>Adaptability</td><td><input type="number" min="1" max="5"></td>
+</tr>
+<tr>
+<td>Creativity</td><td><input type="number" min="1" max="5"></td>
+</tr>
+<tr>
+<td>Leadership</td><td><input type="number" min="1" max="5"></td>
+</tr>
+<tr>
+<td>Time Manangement</td><td><input type="number" min="1" max="5"></td>
+</tr>
+<tr>
+<td>Emotional Intelligence</td><td><input type="number" min="1" max="5"></td>
+</tr>
+<tr>
+<td>Critical Thinking</td><td><input type="number" min="1" max="5"></td>
+</tr>
+<tr>
+<td>Conflict Resolution</td><td><input type="number" min="1" max="5"></td>
+</tr>
+<tr>
+<td>Decision Making</td><td><input type="number" min="1" max="5"></td>
+</tr>
+<tr>
+<td>Networking</td><td><input type="number" min="1" max="5"></td>
+</tr>
+<tr>
+<td>Negotiation</td><td><input type="number" min="1" max="5"></td>
+</tr>
+<tr>
+<td>Attention to Detail</td><td><input type="number" min="1" max="5"></td>
+</tr>
+<tr>
+<td>Collaboration</td><td><input type="number" min="1" max="5"></td>
+</tr><br><br>
+</table>
+
+<p>Attachments:<input type="File" id="MyFile" name="Choose File"></p>
+
+<input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+
